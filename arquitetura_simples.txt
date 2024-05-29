@@ -1,0 +1,13 @@
+[Usuário] ➜ [Internet] ➜ [Serviço de Hospedagem]
+                               └── [Aplicação FastAPI]
+                                    ├── [Endpoints]
+                                    │    ├── GET /embrapa_producao/
+                                    │    ├── POST /embrapa_processamento/
+                                    │    ├── GET /embrapa_comercial/
+                                    │    ├── POST /embrapa_importacao/
+                                    │    └── POST /embrapa_exportacao/
+                                    ├── [Função process_csv]
+                                    ├── [Pandas]
+                                    └── [Uvicorn]
+                                         │
+                                         ➜ [Site da Embrapa]
